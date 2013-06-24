@@ -1,0 +1,50 @@
+151:403b,"403b"
+152:angular cheilitis,#1(angular cheilitis)
+153:pocono,<pocono #1(The Poconos) #1(Pocono Mountains)>
+154:figs,<figs #1(the fruit of the Ficus) #1(the fruit of the Common fig) #1(Figures Shift)>
+155:last supper painting,<#1(The Last Supper oil canvas) #2(The Last Supper Leonardo da Vinci) #2(The Last Supper Da Vinci)>
+156:university of phoenix,<#1(university of phoenix) UPX UoP UOPX>
+157:the beatles rock band,#1(the beatles rock band)
+158:septic system design,#2(septic system design)
+159:porterville,porterville
+160:grilling,grilling
+161:furniture for small spaces,#weight(2.0 furniture 0.1 for 2.0 small 1.0 spaces)
+162:dnr,<"dnr" #1(Do not resuscitate) #2(Department of Natural Resources) #1(Daily News Record) #1(Dreams Not Reality) #1(Digital noise reduction) #1(Dynamic Noise Reduction) #1(Direct normal radiation)>
+163:arkansas,<The Natural State arkansas>
+164:hobby stores,<#1(hobby stores) #1(Hobby Lobby) #1(Hobby shop)>
+165:blue throated hummingbird,<#1(blue throated hummingbird) #1(Blue-throated Mountaingem)>
+166:computer programming,<#1(computer programming) coding>
+167:barbados,barbados
+168:lipoma,lipoma
+169:battles in the civil war,#weight(2.0 battles 0.1 in 0.1 the 3.0 civil 2.0 war)
+170:scooters,scooters
+171:ron howard,#1(ron howard)
+172:becoming a paralegal,#weight(3.0 becoming 0.1 a 2.0 paralegal)
+173:hip fractures,#uw2(hip fractures)
+174:rock art,#2(rock art)
+175:signs of a heartattack,#weight(2.0 signs 0.1 of 0.1 a 3.0 heartattack)
+176:weather strip,#2(weather strip)
+177:best long term care insurance,#weight(2.0 best 1.0 long 1.0 term 1.0 care 2.0 insurance)
+178:pork tenderloin,#weight(1.0 pork 2.0 tenderloin)
+179:black history,#weight(3.0 black 2.0 history)
+180:newyork hotels,#weight(2.0 newyork 1.0 hotels)
+181:old coins,old coins
+182:quit smoking,#weight(2.0 quit 1.0 smoking)
+183:kansas city mo,<#1(Kansas City Missouri) #1(kansas city mo)>
+184:civil right movement,#weight(2.0 civil 2.0 right 1.0 movement)
+185:credit report,<#1(credit report) #1(credit history)>
+186:unc,<#1(University of North Carolina) unc>
+187:vanuatu,vanuatu
+188:internet phone service,#weight(2.0 internet 1.0 phone 2.0 service)
+189:gs pay rate,<#1(General Schedule pay rate) #1(gs pay rate)>
+190:brooks brothers clearance,#combine(#1(brooks brothers) clearance)
+191:churchill downs,churchill downs
+192:condos in florida,<condominium condos> in florida
+193:dog clean up bags,dog clean up bags
+194:designer dog breeds,designer dog breeds
+195:pressure washers,pressure washers
+196:sore throat,sore throat
+197:idaho state flower,idaho state flower
+198:indiana state fairgrounds,indiana state fairgrounds
+199:fybromyalgia,fybromyalgia
+200:ontario california airport,ontario california airport

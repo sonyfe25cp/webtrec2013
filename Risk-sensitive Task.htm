@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><TITLE>Risk-sensitive Task</TITLE>
+<!--defaultCSS-->
+
+
+<META name=GENERATOR content="MSHTML 10.00.9200.16614">
+<style type="text/css" id="wiz_custom_css">
+body
+{
+    font-family: 微软雅黑,"Microsoft YaHei", Georgia,Helvetica,Arial,sans-serif,宋体, PMingLiU,serif;
+    font-size: 10.5pt;
+    line-height: 1.5;
+}
+html, body
+{
+    
+    
+}
+h1 {
+    font-size:1.5em;
+    font-weight:bold;
+}
+h2 {
+    font-size:1.4em;
+    font-weight:bold;
+}
+h3 {
+    font-size:1.3em;
+    font-weight:bold;
+}
+h4 {
+    font-size:1.2em;
+    font-weight:bold;
+}
+h5 {
+    font-size:1.1em;
+    font-weight:bold;
+}
+h6 {
+    font-size:1.0em;
+    font-weight:bold;
+}
+img {
+    border:0;
+    max-width: 100%;
+}
+blockquote {
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+
+</style>
+</HEAD>
+<BODY>
+<DIV align=left><FONT size=5>Risk-sensitive Task</FONT></DIV>
+<DIV align=left>&nbsp;</DIV>
+<DIV align=left>&nbsp;&nbsp;&nbsp;&nbsp;risk-sensitive 
+检索任务使用和ad-hoc相同的主题，但是基于新的评估方法。risk-sensitive任务的目标是提供一个排序的网页列表，最大化返回相关文档同时最小化查询损失。所谓检索损失，我们指的是系统提供的针对特定查询低于baseline检索效率的结果。所以“risk-sesitive”任务中的“risk”指的是对于任意特定查询的我们所不希望的比基线效果差的结果。</DIV>
+<DIV align=left>&nbsp;</DIV>
+<DIV 
+align=left>&nbsp;&nbsp;&nbsp;&nbsp;典型的，baseline针对某些查询效果很好但不是所有的，运行了一些查询后，你的系统将会有与给定baseline相关的成功或失败的分布。我们使用的risk-sensitive评估是由win/loss分布导出的，risk-sensitive任务中的评估方法将会奖励同时符合以下条件的系统：</DIV>
+<DIV 
+align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（a）对每一个查询的高平均效率(high 
+average effectiveness per query)</DIV>
+<DIV 
+align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（b）对所给的baseline的最小损失(minimal 
+losses with respect to the provided baseline)</DIV>
+<DIV 
+align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（c）对于所有查询，有高于其他系统的比例(wins 
+affecting a higher proportion of overall queries than other systems)</DIV>
+<DIV align=left>&nbsp;</DIV>
+<DIV 
+align=left>&nbsp;&nbsp;&nbsp;&nbsp;我们相信risk-sensitive任务会引起IR团体的兴趣因为广阔的研究领域的技术是具有实用性的，包括：健壮的查询扩展和伪相关反馈、融合和结构多样性排名、使用查询结果预测来决定对基线结果保留或者修改、优化效率和鲁棒性的learning-to-rank模型等等。TREC 
+2013 Web track的一个目标就是探究不同技术风险与回报权衡的实质。我们提供了样例脚本作为输入：</DIV>
+<DIV align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（a）your 
+risk-sensitive run</DIV>
+<DIV align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（b）a provided 
+baseline run</DIV>
+<DIV align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（c）a risk 
+parameter</DIV>
+<DIV 
+align=left>&nbsp;&nbsp;&nbsp;&nbsp;以及如下所讲的你的系统应该优化的risk-sensitive检索度量作为输出</DIV></BODY></HTML>

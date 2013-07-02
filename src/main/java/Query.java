@@ -16,12 +16,9 @@ public class Query {
 	public static void main(String[] args) throws Exception {
 
 		QueryEnvironment env= new QueryEnvironment();
-//		String myIndex="/data/indri/index2";
-		String myServer="127.0.0.1:9872";
+		String myServer="10.1.0.171:9876";
 //		String myQuery="#combine(\"403b\" #not(<porn pussy>) #not(\"russellbailyn\".url))";
-//		String myQuery="\"403b\" #not(<porn pussy>) ";
-		String myQuery="\"403b\"";
-//		String myQuery="russellbailyn";
+		String myQuery="beijing";
 		
 		ScoredExtentResult[] results;
 		
@@ -35,10 +32,10 @@ public class Query {
 		
 		int docs[]=new int[results.length];
 		for(int i =0; i < results.length;i++){
-			logger.info(names[i]+" "+results[i].score+" "+results[i].begin+" "+results[i].end+" id:"+results[i].document);
+			logger.info("names[i]:"+names[i]+" score:"+results[i].score+" begin:"+results[i].begin+" end:"+results[i].end+" id:"+results[i].document);
 			docs[i]=results[i].document;
 		}
-//		int docs[]={18787164};
+//		int docs[]={1};
 		ParsedDocument[] pdocs= env.documents(docs);
 		for(ParsedDocument pdoc:pdocs){
 //			logger.info(pdoc.text);

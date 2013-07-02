@@ -1,0 +1,16 @@
+2013 Web Track 记录
+
+基本情况
+1. Ad-hoc 任务
+2. Risk-sensitive 任务
+
+Ad-hoc
+描述：基本的搜索任务，根据题目，搜到相关的网页，返回前1000个结果
+方法：
+1. 对topics进行查询扩展
+2. 使用扩展词搜索得到结果集，筛选掉无效结果
+3. 对结果集进行rank
+
+Risk-sensitive 任务
+描述参见：Risk-sensitive Task.htm
+

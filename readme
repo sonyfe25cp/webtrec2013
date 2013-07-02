@@ -20,3 +20,6 @@ Risk-sensitive 任务
 描述参见：Risk-sensitive Task.htm
 
 
+安装jar
+mvn install:install-file -DgroupId=edu.bit.dlde -DartifactId=dlde-commons -Dversion=1.0 -Dpackaging=jar -Dfile=[path to file]
+mvn install:install-file -DgroupId=edu.bit.dlde -DartifactId=page-extractor -Dversion=1.0 -Dpackaging=jar -Dfile=[path to file]

@@ -26,11 +26,11 @@ public class PagesExtract {
 				topicDir.mkdir();
 			}
 			//创建一个文件存放抽取出的属于该主题下的所有内容，即合并所有page的内容
-			File topicContentDir = new File(topicContentPath + File.separator +file.getName());
-			if(!topicContentDir.exists()){
-				topicContentDir.mkdir();
-			}
-			File topicContentFile = new File(topicContentPath + File.separator +file.getName() +File.separator + "content.txt");
+//			File topicContentDir = new File(topicContentPath + File.separator +file.getName());
+//			if(!topicContentDir.exists()){
+//				topicContentDir.mkdir();
+//			}
+			File topicContentFile = new File(topicContentPath + File.separator +file.getName() + ".txt");
 			if(!topicContentFile.exists()){
 				try {
 					topicContentFile.createNewFile();

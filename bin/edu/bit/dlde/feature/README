@@ -1,0 +1,27 @@
+该包的作用是用来提取网页特征用以进行机器学习的。
+当前版本并不保证所有计算结果一定正确
+使用：
+	FeatureArray features = FeatureArray.getInstance(indexReader);//该工厂方法里面自动绑定了各种求取特征的类，如要修改可以往里面添加FeatureSet
+	HashMap map = features.processDocument(new ProcessedQuery("query"), docId);
+	//map里面将会按照ms l2r dataset里面的编号给出<int, double>对
+    ***由于部分概念不确定暂时不包含41-45，66-70，91-95，116-125，128-136***
+    ***对于已经实现的但索引里面不包含的域，特征赋值为0***
+
+整体结构简单介绍：
+	FeatureArray类用来提供特征抽取的接口。
+	FieldEnum指定了lucene的域，便于全局修改
+	FeatureSet为抽象类，规定了进行特征提取时的接口，它持有一个FeatureArray实例，以便直接使用其他FeatureArray已经完成的特征提取结果
+	ProcessedQuery是出于可扩展性的考虑设计的，里面的核心接口为getTerms()，返回terms。这样设计的目的在于把分词进行了一次包装。而且里面可以再实现别的例如查询扩展等等功能。
+	其余的各种FirstFeatureSet等等都是一些含有多个特征抽取功能的类；ETC则是一些杂七杂八的特征。
+
+添加新的特征提取：
+	目前建议实现接口，然后在FeatureArray的getInstance()方法里面添加一段代码，例如features
+
+关于Lucene建立的索引：
+	1.需要保存term vector
+	2.需要有FieldEnum.java里面的域
+	
+关于性能：
+	1.存在引起性能过低可能的应该是VSM
+	2.ProcessedQuery可以更加牛逼，然后就可以获得更好的结果
+	

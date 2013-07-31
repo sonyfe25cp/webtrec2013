@@ -1,0 +1,22 @@
+660
+michigan     141
+cherry     100
+festival     64
+winery     64
+peninsula     62
+region     54
+lake     51
+beach     48
+downtown     48
+river     42
+leelanau     37
+vineyards     37
+harbor     34
+vineyard     33
+park     32
+weather     29
+arts     27
+music     26
+team     26
+largest     24
+airport     23

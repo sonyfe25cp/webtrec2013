@@ -1,0 +1,21 @@
+247
+inches     54
+tallest     48
+giant     46
+breed     43
+largest     40
+mastiff     38
+guinness     37
+size     36
+records     31
+dave     27
+height     24
+weight     22
+hercules     21
+pounds     21
+animal     17
+owner     17
+wolfhound     14
+nasser     13
+heaviest     12
+pet     9

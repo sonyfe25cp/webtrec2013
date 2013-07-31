@@ -1,0 +1,32 @@
+bush     1716
+president     528
+war     177
+reagan     142
+texas     135
+presidential     124
+family     124
+nixon     120
+american     99
+iraq     97
+walker     97
+born     91
+barbara     83
+administration     80
+military     79
+oil     78
+prescott     71
+cuban     71
+father     71
+congress     68
+government     67
+invasion     67
+soviet     66
+herbert     64
+campaign     62
+yale     60
+election     56
+presidency     55
+kuwait     55
+policy     47
+biography     41     ？？？？？权重提升？？？？
+book     40           ？？？？？权重提升？？？？

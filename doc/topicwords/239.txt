@@ -1,0 +1,35 @@
+wright     1644  lloyd     608  frank     598
+building     304
+taliesin     253
+chicago     211
+architecture     189
+architect     162
+oak     123
+sullivan     120
+park     112
+architectural     108
+wisconsin     98
+houses     93
+art     88
+designs     87
+prairie     87
+robie     74
+university     65
+architects     63
+residence     63
+biography     62
+york     61
+book     60           ？？？？？权重提升？？
+william     58
+born     57
+cheney     56
+wife     50
+museum     49
+guggenheim     48
+louis     47
+fellowship     47
+midway     46
+madison     45
+catherine     43
+olgivanna     43
+larkin     43

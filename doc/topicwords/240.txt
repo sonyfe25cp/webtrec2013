@@ -1,0 +1,27 @@
+middle     221
+hussein     4 ---奥巴马
+walker     43
+wilson     43
+jefferson     28
+herbert     32
+carter     16
+rudolph     16
+fitzgerald     14
+milhous     10
+baines     10
+david     15
+delano     14
+clark     5
+calvin     17
+gamaliel     5
+woodrow     25
+howard     12
+grover     23
+alan     6
+abram     5
+birchard     10
+simpson     14
+knox     8
+henry     17
+van     23
+quincy     30

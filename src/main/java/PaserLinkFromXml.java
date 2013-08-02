@@ -1,4 +1,6 @@
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -11,10 +13,13 @@ public class PaserLinkFromXml {
 	private static String xmlDirectory = "/home/yulong/store/xml";
 	private static String targetDirectory = "/home/yulong/store/xmlParse";
 	
-	public List<String> extractLinks(String xmlContent){
+	public List<String> extractLinks(String xmlContent) throws Exception{
 		List<String> links = new ArrayList<String>();
 		int start = xmlContent.indexOf("<text xml:space=\"preserve\">");
 		int end = xmlContent.indexOf("</text>");
+		if(start==-1||end==-1){
+			return null;
+		}
 		String content = xmlContent.substring(start, end);
 		//String regex = "\\[\\[[^\\]]+\\]\\]";
 		String regex = "\\[\\[((?!\\]{2,}).)+\\]\\]";
@@ -78,22 +83,54 @@ public class PaserLinkFromXml {
 			for(File xmlFile: xmlFiles)
 			{
 				String xmlName = xmlFile.getName();
-				String xmlContent = FileReadUtil.readFile(xmlFile);
-				String title = extractTitle(xmlContent);
-				List<String> links = extractLinks(xmlContent);
-				String resultContent = xmlHeader + "\n" + "  <page>\n" + "    " + title +"\n" +"    " + "<text xml:space=\"preserve\">\n";
-				for(String link : links){
-					resultContent += "      <a href=\"" +link +"\">" +link +"</a>\n";
-				}
-				resultContent += "    </text>\n" + "  </page>\n" + "</mediawiki>";
 				File targetXml = new File(targetDir + File.separator + dirName + File.separator + xmlName);
-				if(!targetXml.exists()){
+				if(targetXml.exists()){
+					FileInputStream fs;
 					try {
-						targetXml.createNewFile();
+						fs = new FileInputStream(targetXml);
+						long size = fs.available();
+						fs.close();
+						if(size>0)
+							continue;
+					} catch (FileNotFoundException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
 					} catch (IOException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
+				}
+				String xmlContent = FileReadUtil.readFile(xmlFile);
+				String title = extractTitle(xmlContent);
+				List<String> links = null; 
+				try {
+					links = extractLinks(xmlContent);
+				} catch (Exception e1) {
+					// TODO Auto-generated catch block
+					System.out.println("============"+dirName + "===========" + xmlName+"===========exception");
+					e1.printStackTrace();
+				}
+				String resultContent = xmlHeader + "\n" + "  <page>\n" + "    " + title +"\n";
+				if(links!=null){
+					resultContent += "    " + "<text xml:space=\"preserve\">\n";
+					for(String link : links){
+						resultContent += "      <a href=\"" +link +"\">" +link +"</a>\n";
+					}
+					resultContent += "    </text>\n";
+				}
+				else
+				{
+					resultContent += "    " + "<text xml:space=\"preserve\"></text>\n";
+				}
+				resultContent += "  </page>\n" + "</mediawiki>";
+				try {
+					if(!targetXml.exists()){
+						targetXml.createNewFile();
+					}
+					
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
 				}
 				FileWriter fw =null;
 				try {

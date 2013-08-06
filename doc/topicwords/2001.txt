@@ -1,0 +1,21 @@
+403
+sd     95
+card     83
+usb     79
+board     61
+computer     61
+linux     59
+model     54
+button     53
+power     52
+event     51
+role     51
+file     48
+system     75
+ethernet     45
+device     45
+foundation     40
+software     38
+video     37
+camera     36
+hardware     36

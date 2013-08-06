@@ -13,18 +13,17 @@ public class Query {
 	 * Jul 23, 2012
 	 * @throws Exception 
 	 */
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception{
 
 		QueryEnvironment env= new QueryEnvironment();
 		String myServer="10.1.0.171:9876";
-//		String myQuery="#combine(\"403b\" #not(<porn pussy>) #not(\"russellbailyn\".url))";
+//		String myQuery=" #combine(#wsum ( 1.0 #1(raspberry pi).title 0.236 sd 0.206 card 0.196 usb))";
 		String myQuery="beijing";
-		
+
 		ScoredExtentResult[] results;
 		
 		String names[];
 		
-//		env.addIndex(myIndex);
 		env.addServer(myServer);
 		results=env.runQuery(myQuery, 100);
 		

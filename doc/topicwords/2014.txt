@@ -1,0 +1,21 @@
+616
+income     187
+rate     310
+property     80
+asset     79
+percent     78
+investment     72
+sale     65
+asset     63
+loss     113
+amount     56
+stock     72
+business     51
+period     39
+taxpayers     55
+subject     28
+investors     27
+money     27
+federal     26
+price     24
+company     24

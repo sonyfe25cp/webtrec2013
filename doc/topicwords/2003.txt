@@ -1,0 +1,21 @@
+314
+movie     199
+film     199
+crowe     178
+valjean     169
+musical     162
+hooper     138
+rables     137
+javert     117
+jackman     116
+hathaway     113
+review     103
+stage     107
+russell     95
+miserables     92
+anne     79
+story     76
+love     73
+actors     73
+tom     73
+jean     70

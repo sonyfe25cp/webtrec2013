@@ -1,0 +1,21 @@
+1082
+nerve     529
+wrist     415
+symptoms     339
+hand     406
+median     322
+pain     252
+cts     189
+treatment     185
+people     168
+surgery     153
+fingers     124
+health     117
+pressure     108
+thumb     101
+severe     88
+evidence     87
+physical     85
+arthritis     80
+condition     80
+muscles     77

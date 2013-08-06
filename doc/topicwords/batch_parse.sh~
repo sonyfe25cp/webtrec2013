@@ -12,7 +12,13 @@ while [ $i -lt 26 ]; do
   count=$(head -n1 2$b.txt)
   echo $count
 
-  awk '{print $1, $2, $2/$count}' 2$b.txt
+  awk '{print (, [,]))}' 201.txt]])
+
+  $1
+  awk '{print ()
+
+
+ 
 
   ((i++))
   

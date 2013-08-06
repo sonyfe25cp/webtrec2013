@@ -1,0 +1,21 @@
+453
+carrier     199
+ship     119
+aircraft     102
+san     100
+air     81
+navy     80
+diego     80
+port     79
+departed     77
+cvn     73
+aboard     69
+naval     69
+sea     63
+coast     52
+march     51
+flight     48
+college     46
+station     45
+alameda     42
+squadron     41

@@ -1,0 +1,21 @@
+697
+play     522
+player     347
+penalty     164
+stroke     162
+hole     140
+hazard     123
+club     151
+putting     85
+ground     84
+local     80
+game     69
+drop     64
+relief     59
+committee     52
+spot     51
+golfer     73
+usga     49
+bounds     46
+lie     78
+original     45

@@ -1,0 +1,21 @@
+1067
+prostate     783
+symptoms     347
+prostatic     284
+urinary     253
+bladder     227
+benign     194
+urine     162
+hyperplasia     153
+patient     218
+surgery     148
+drugs     134
+enlarged     129
+tissue     128
+laser     119
+urethra     118
+effects     107
+procedure     103
+medical     100
+turp     97
+transurethral     95

@@ -1,0 +1,21 @@
+487
+film     203
+mar     73
+ghost     59
+vegas     55
+rider     51
+action     49
+actor     47
+time     46
+character     44
+left     42
+role     42
+bad     41
+performance     40
+love     39
+director     35
+john     32
+treasure     32
+photos     31
+national     30
+kiss     30

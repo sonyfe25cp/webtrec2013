@@ -1,0 +1,21 @@
+266
+rerebound     153
+player    197
+bulls     132
+chicago     131
+league     127
+lakers     107
+angeles     106
+consecutive     100
+warriors     96
+leading     94
+field     92
+denver     85
+games     82
+philadelphia     82
+nuggets     81
+goals     74
+spurs     71
+boston     70
+jordan     70
+celtics     70

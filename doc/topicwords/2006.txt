@@ -1,0 +1,21 @@
+1317
+energy     492
+turbine     463
+electricity     222
+capacity     119
+pingback     114
+offshore     111
+renewable     88
+cost     221
+farm     144
+storage     73
+cleantechnica     68
+air     67
+development     66
+system     69
+generation     64
+grid     62
+project     59
+installed     58
+blades     49
+production     48

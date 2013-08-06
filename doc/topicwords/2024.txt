@@ -1,0 +1,21 @@
+773
+comment     339
+stock     221
+recipe     147
+broth     123
+pot     96
+celery     96
+simmer     89
+noodle     87
+water     86
+chopped     82
+meat     81
+salt     81
+carrots     80
+heat     77
+vegetables     74
+noodles     71
+onion     69
+corn     68
+tue     67
+bones     64

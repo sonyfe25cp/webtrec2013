@@ -1,0 +1,21 @@
+351
+president     155
+obama     145
+electors     122
+popular     116
+candidate     177
+system     75
+elections     61
+district     59
+house     56
+polls     55
+comment     50
+mccain     49
+campaign     47
+nebraska     46
+party     45
+majority     45
+senate     45
+republican     43
+romney     41
+method     39

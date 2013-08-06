@@ -1,0 +1,21 @@
+211
+distance     88
+app     78
+course     63
+free     58
+green     43
+accurate     42
+feature     40
+shot     39
+yardage     38
+map     65
+play     37
+android     35
+view     33
+distance     33
+device     32
+hole     32
+version     32
+screen     31
+laser     31
+scorecard     30

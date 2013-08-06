@@ -1,0 +1,309 @@
+<parameters>
+	<server>10.1.0.171:9876</server>
+    <trecFormat>true</trecFormat>
+	<count>10</count>
+	<query>
+        <number>201</number>
+		<text>
+			#combine(#wsum ( 1.0 #1(raspberry pi).title 0.235732 sd 0.20595534 card 0.19602978 usb 0.15136476 board 0.15136476 computer 0.14640199 linux 0.13399504 model 0.13151364 button 0.12903225 power 0.12655087 event 0.12655087 role 0.1191067 file 0.18610422 system 0.11166253 ethernet 0.11166253 device 0.099255584 foundation 0.094292805 software 0.09181141 video 0.089330025 camera 0.089330025 hardware))
+		</text>
+	</query>
+	<query>
+        <number>202</number>
+		<text>
+			#combine(#wsum (1.0 #2(uss carl vinson).title ))
+		</text>
+	</query>
+	<query>
+        <number>203</number>
+		<text>
+			#combine(#wsum (1.0 #2(reviews of les miserables).title ))
+		</text>
+	</query>
+	<query>
+        <number>204</number>
+		<text>
+			#combine(#wsum (1.0 #2(rules of golf).title ))
+		</text>
+	</query>
+		<query>
+        <number>205</number>
+		<text>
+			#combine(#wsum (1.0 #2(average charitable donation).title ))
+		</text>
+	</query>
+		<query>
+        <number>206</number>
+		<text>
+			#combine(#wsum (1.0 #2(wind power).title ))
+		</text>
+	</query>
+		<query>
+        <number>207</number>
+		<text>
+			#combine(#wsum (1.0 #2(bph treatment).title ))
+		</text>
+	</query>
+		<query>
+        <number>208</number>
+		<text>
+			#combine(#wsum (1.0 #2(doctor zhivago).title ))
+		</text>
+	</query>
+		<query>
+        <number>209</number>
+		<text>
+			#combine(#wsum (1.0 #2(land surveyor).title ))
+		</text>
+	</query>
+		<query>
+        <number>210</number>
+		<text>
+			#combine(#wsum (1.0 #2(golf gps).title ))
+		</text>
+	</query>
+		<query>
+        <number>211</number>
+		<text>
+			#combine(#wsum (1.0 #2(madagascar known).title ))
+		</text>
+	</query>
+		<query>
+        <number>212</number>
+		<text>
+			#combine(#wsum (1.0 #2(home theater system).title ))
+		</text>
+	</query>
+	
+		<query>
+        <number>213</number>
+		<text>
+			#combine(#wsum (1.0 #2(carpal tunnel syndrome).title ))
+		</text>
+	</query>
+		<query>
+        <number>214</number>
+		<text>
+			#combine(#wsum (1.0 #2(capital gains tax rate).title ))
+		</text>
+	</query>
+		<query>
+        <number>215</number>
+		<text>
+			#combine(#wsum (1.0 #2(maryland department natural resources).title ))
+		</text>
+	</query>
+		<query>
+        <number>216</number>
+		<text>
+			#combine(#wsum (1.0 #2(nicolas cage movie).title ))
+		</text>
+	</query>
+		<query>
+        <number>217</number>
+		<text>
+			#combine(#wsum (1.0 #2(kids earth day activities).title ))
+		</text>
+	</query>
+		<query>
+        <number>218</number>
+		<text>
+			#combine(#wsum (1.0 #2(solar water fountains).title ))
+		</text>
+	</query>
+		<query>
+        <number>219</number>
+		<text>
+			#combine(#wsum (1.0 #2(name elvis presley's home).title ))
+		</text>
+	</query>
+		<query>
+        <number>220</number>
+		<text>
+			#combine(#wsum (1.0 #2(nba records).title ))
+		</text>
+	</query>
+		<query>
+        <number>221</number>
+		<text>
+			#combine(#wsum (1.0 #2(electoral college 2008 results).title ))
+		</text>
+	</query>
+		<query>
+        <number>222</number>
+		<text>
+			#combine(#wsum (1.0 #2(male menopause).title ))
+		</text>
+	</query>
+	
+		<query>
+        <number>223</number>
+		<text>
+			#combine(#wsum (1.0 #2(usda food pyramid).title ))
+		</text>
+	</query>
+		<query>
+        <number>224</number>
+		<text>
+			#combine(#wsum (1.0 #2(making chicken soup scratch).title ))
+		</text>
+	</query>
+		<query>
+        <number>225</number>
+		<text>
+			#combine(#wsum (1.0 #2(black gold).title ))
+		</text>
+	</query>
+		<query>
+        <number>226</number>
+		<text>
+			#combine(#wsum (1.0 #2(traverse city).title ))
+		</text>
+	</query>
+		<query>
+        <number>227</number>
+		<text>
+			#combine(#wsum (1.0 #2(i will survive lyrics).title ))
+		</text>
+	</query>
+	
+		<query>
+        <number>228</number>
+		<text>
+			#combine(#wsum (1.0 #2(hawaiian volcano observatories).title ))
+		</text>
+	</query>
+		<query>
+        <number>229</number>
+		<text>
+			#combine(#wsum (1.0 #2(beef stroganoff recipe).title ))
+		</text>
+	</query>
+		<query>
+        <number>230</number>
+		<text>
+			#combine(#wsum (1.0 #2(world's biggest dog).title ))
+		</text>
+	</query>
+		<query>
+        <number>231</number>
+		<text>
+			#combine(#wsum (1.0 #2(what are the seven deadly sins).title ))
+		</text>
+	</query>
+		<query>
+        <number>232</number>
+		<text>
+			#combine(#wsum (1.0 #2(hurricane Irene flooding manville nj).title ))
+		</text>
+	</query>
+		<query>
+        <number>233</number>
+		<text>
+			#combine(#wsum (1.0 #2(hair dye).title ))
+		</text>
+	</query>
+		<query>
+        <number>234</number>
+		<text>
+			#combine(#wsum (1.0 #2(dark chocolate health benefits).title ))
+		</text>
+	</query>
+	<query>
+        <number>235</number>
+		<text>
+			#combine(#wsum (1.0 #2(ham radio).title ))
+		</text>
+	</query>
+	<query>
+        <number>236</number>
+		<text>
+			#combine(#wsum (1.0 #2(symptoms of mad cow disease in humans).title ))
+		</text>
+	</query>
+	<query>
+        <number>237</number>
+		<text>
+			#combine(#wsum (1.0 #2(lump in throat).title ))
+		</text>
+	</query>
+	<query>
+        <number>238</number>
+		<text>
+			#combine(#wsum (1.0 #2(george bush sr bio).title ))
+		</text>
+	</query>
+	<query>
+        <number>239</number>
+		<text>
+			#combine(#wsum (1.0 #2(frank lloyd wright biography).title ))
+		</text>
+	</query>
+	<query>
+        <number>240</number>
+		<text>
+			#combine(#wsum (1.0 #2(presidential middle names).title ))
+		</text>
+	</query>
+	<query>
+        <number>241</number>
+		<text>
+			#combine(#wsum (1.0 #2(what is a wiki).title ))
+		</text>
+	</query>
+	<query>
+        <number>242</number>
+		<text>
+			#combine(#wsum (1.0 #2(cannellini beans).title ))
+		</text>
+	</query>
+	<query>
+        <number>243</number>
+		<text>
+			#combine(#wsum (1.0 #2(afghanistan flag ).title ))
+		</text>
+	</query>
+	<query>
+        <number>244</number>
+		<text>
+			#combine(#wsum (1.0 #2(old town scottsdale).title ))
+		</text>
+	</query>
+	
+	<query>
+        <number>245</number>
+		<text>
+			#combine(#wsum (1.0 #2(roosevelt island).title ))
+		</text>
+	</query>
+	<query>
+        <number>246</number>
+		<text>
+			#combine(#wsum (1.0 #2(civil war battles in South Carolina).title ))
+		</text>
+	</query>
+	<query>
+        <number>247</number>
+		<text>
+			#combine(#wsum (1.0 #2(rain man).title ))
+		</text>
+	</query>
+	<query>
+        <number>248</number>
+		<text>
+			#combine(#wsum (1.0 #2(eggs shelf life).title ))
+		</text>
+	</query>
+	<query>
+        <number>249</number>
+		<text>
+			#combine(#wsum (1.0 #2(occupational therapist).title ))
+		</text>
+	</query>
+	<query>
+        <number>250</number>
+		<text>
+			#combine(#wsum (1.0 #2(ford edge problems).title ))
+		</text>
+	</query>
+</parameters>
